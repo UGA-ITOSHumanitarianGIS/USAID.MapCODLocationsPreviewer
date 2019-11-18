@@ -1,0 +1,110 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+    <div id="map" style="width:100%;height:100%;position:absolute;"></div>
+    <div id="search"></div>
+    <div id="detailsDiv" class="draggable resizeable" style="display: inline-block; height: 90%; width: 30%; margin-top: 6px; margin-left: 6px">
+
+        <div class="ecologybar">
+            <span style="font-size: 12px; float: left">
+                Hello!
+            </span>
+
+            
+            <div class="btnprofile">
+                <img class="btnimage" style="margin: 0px; padding:4px 5px 0px 14px;" src='@Url.Content("~/Content/Images/profile_sm2.png")' alt="Profile">
+                <div class="btnprofile-content">
+                 
+                </div>
+            </div>
+
+            <div class="btnprofile">
+                <img class="btnimage" style="margin: 0px; padding:4px 5px 0px 14px;" src='@Url.Content("~/Content/Images/i1.png")' alt="COD Map Previewer template: UGA CVIOG ITOS supports COD development and Information Management initiatives for UN OCHA and other humanitarian groups involved in preparedness and response." />
+                <div class="btnprofile-content">
+                    <a href="https://humanitarian.atlassian.net/wiki/spaces/imtoolbox/pages/42045911/COD+Overview" target="_blank">UN OCHA Wiki on CODs</a>
+                </div>
+            </div>
+            <!--<a title="Maps and information for Surveys and Occurrence reviews may be accessed and managed here.">
+                <img style="margin: 0px; padding:2px 5px 0px 5px;" src='<Url.Content("~/Content/Images/i1.png")' />
+            </a>
+            -->
+            
+        </div>
+
+
+        <div id="detailsContentDiv" style="height: 90%; width: 96%; margin-left: 10px; margin-right: 15px; margin-top: 30px; padding: 15px; box-sizing: border-box; ">
+            <!--Tab-->
+            <div id="entry">
+                <div class="esriCTTabContainer" style="width:95%">
+                    <div id="esriCTsearchContainerProjectArea" class="esriCTsearchContainerProjectArea esriCTTab" data-dojo-attach-point="esriCTsearchContainerProjectArea" style="width: 25%; vertical-align: middle; background-color: lightblue; ">
+                        <div id="directionsDisplayTextProjectArea" class="directionsDisplayTextProjectArea" title="COD Admin">COD Summary</div>
+
+                    </div>
+                    <div id="esriCTsearchContainerReview" class="esriCTsearchContainerReview esriCTTab" data-dojo-attach-point="esriCTsearchContainerReview" style="width: 25%; vertical-align: middle;">
+                        <div id="directionsDisplayTextReview" class="directionsDisplayTextReview" title="About">About</div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Project Area Content-->
+            <p></p>
+            <p></p>
+
+            <div id="projectAreaContent" style="display: block; visibility: visible; margin-top: 70px; ">
+                <div id="codISOSwitcher" style="display: block; visibility: visible">
+                <p>
+                    <font size="2"> COD Country (ISO Name): </font><br>
+                    <select style="width:100%" id="selectionCODCountry">
+                        <option value="">&lt;Select&gt;</option>
+                        <option>Loading</option>
+                        <option>.</option>
+                        <option>..</option>
+                        <option>...</option>
+                    </select>
+                </p>
+                </div>
+                <p></p>
+                <div id="resultsGridProjectArea" class="resultsGridProjectArea">
+                    <div id="divSearchGridProjectArea"></div>
+                </div><div id="errorsProjectArea"></div>
+            </div>
+
+            <!--Project Review Area Content-->
+            <div id="projectReviewAreaContent" style="display: block; visibility: hidden; margin-top: 70px; ">
+
+                <button id="returnToThisProject" class="myButton">Return to Project Area list </button>
+
+                <button id="generateProjectReviewButton" class="myButton">Export to PDF</button>
+
+                <p></p>
+                <div id="resultsGridProjectReview" class="resultsGridProjectReview" style="overflow:scroll">
+                    <p>
+                    
+                    <div id="divSearchGridProjectReview"></div>
+                </div><div id="errorsProjectReview"></div>
+                <p> <br> </p>
+            </div>
+            <!--Review Content-->
+            <div id="reviewContent" style="display: block; visibility: hidden; margin-top: 70px; ">
+                    Of course, COD services are available through <a href="https://humdata.org">HDX</a> and you may load services in ArcGIS Online.
+                    This is a previewer for locations and provides initial discovery related to CODS. Note the COD administrative place lists in the COD tab? Zoom to a listing or use map tools to browse to map locations.
+                    Have a csv? Perhaps you've created one and want to add it to <a href="https://humdata.org">HDX</a>?<br />
+                    If you do not have a GIS running and want to preview your location data on a map, and your csv has latitude and longitude attributes and values filled in, then feel free to drag and drop it on the map.<br />
+                <img src="~/Content/Images/usaid.png" /><br />
+                <img src="~/Content/Images/unochalg.png" />
+                <img src="~/Content/Images/UGAlg.png" /><br />
+                <div id="resultsGridReview" class="resultsGridReview">
+                    <p></p>
+                    <div id="divSearchGridReview"></div>
+                </div><div id="errorsReview"></div>
+                <p> <br> </p>
+            </div>
+
+
+
+
+
+
+
+

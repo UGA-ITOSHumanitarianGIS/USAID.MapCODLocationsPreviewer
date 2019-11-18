@@ -1,0 +1,33 @@
+
+/* 
+    Created on : Apr 15, 2015, 10:27:43 AM
+    Author     : jsimms
+*/
+.toolbarContainer {
+    background-color: #485566;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 10;
+    height: 42px;
+    box-shadow:0px 1px 8px 0px rgba(0, 0, 0, 0.4)
+}
+
+.titleNode {
+    font-size: 26px;
+    /* font-weight: normal; */
+    color: #FFFFFF;
+    float: left;
+    padding: 5px 0 0 10px;
+    margin:0;
+    -webkit-user-select: none;/* Chrome/Safari */
+    -moz-user-select: none;/* Firefox */
+    -ms-user-select: none;/* IE10+ *//* Rules below not implemented in browsers yet */
+    -o-user-select: none;
+    user-select: none;
+}
+.iconContainer {
+    float:right;
+    /* padding: 5px 5px 0 0; */
+}

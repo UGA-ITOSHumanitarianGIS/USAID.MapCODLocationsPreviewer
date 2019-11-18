@@ -1,0 +1,20 @@
+<div class="${_css.container}">
+	<div class="">
+		<a data-dojo-attach-point="_drawRect"><img data-dojo-attach-point="_rectImage" /></a>
+		<a data-dojo-attach-point="_drawPoint"><img data-dojo-attach-point="_pointImage" /></a>
+		<a data-dojo-attach-point="_drawPoly"><img data-dojo-attach-point="_polyImage" /></a>
+		<a data-dojo-attach-point="_drawLine"><img data-dojo-attach-point="_lineImage" /></a>
+	</div>
+	<div class="${_css.bufferContainer}">
+		Buffer? <input type="checkbox" data-dojo-attach-point="_bufferToggle" />
+		<input type="text" data-dojo-attach-point="_bufferDistance" data-dojo-attach-event="onchange:doBuffer" value="5"/>
+		<select data-dojo-attach-point="_bufferUnits" data-dojo-attach-event="onchange:doBuffer" >
+			<option>km</option>
+			<option>mi</option>
+			<option>m</option>
+			<option selected>ft</option>
+		</select>
+		<button data-dojo-attach-event="onclick:_clearSelection">Clear Selection</button>
+	</div>
+    <ul class="${_css.list}" data-dojo-attach-point="_layerList"></ul>
+</div>

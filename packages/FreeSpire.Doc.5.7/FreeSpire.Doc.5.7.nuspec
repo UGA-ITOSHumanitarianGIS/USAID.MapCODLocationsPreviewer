@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>FreeSpire.Doc</id>
+    <version>5.7</version>
+    <title>Free Spire.Doc for .NET</title>
+    <authors>Administrator</authors>
+    <owners>Administrator</owners>
+    <licenseUrl>http://freeword.codeplex.com/license</licenseUrl>
+    <projectUrl>http://www.e-iceblue.com/Introduce/free-doc-component.html</projectUrl>
+    <iconUrl>http://www.e-iceblue.com/images/product_logo/product_buy/docnetfree.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Free Spire.Doc for .NET is a professional and reliable word component for commercial and personal use. It enables developers to quickly and easily generate, read, write, save, print and convert documents on any .NET applications (ASP.NET, WinForms and Web Service) and it supports in C#, VB.NET. The featured function, conversion allows converting Word documents (Word 97-2003, Word 2007, Word 2010, Word 2013) to commonly used file format,  format, such as XML, RTF, TXT, PDF, XPS, EPUB, HTML and Image etc.
+
+Free Spire.Doc for.NET is 100% FREE word component.
+
+Free Spire.Doc for .NET Features:
+
+*No Microsoft Word Automation
+*Speed and Easy-to-Use
+*Batch of Great Functions
+*High Performance
+*Totally Free
+
+Main functions
+High quality conversion
+Rich Word Document Features
+Process Pre-Existing Word Documents
+Other Technical Features</description>
+    <summary>Free Spire.Doc for .NET is a professional word component which enables developers to quickly and easily generate, read, write, save, print and convert documents on any .NET applications</summary>
+    <releaseNotes>Thank you for your interests in Spire.Doc. Free Spire.Doc is a professional and powerful Word component which enables you to generate, load, write, edit and save Word document on .NET, Silverlight and WPF. With Spire.Doc, you can create a large range of applications.</releaseNotes>
+    <copyright>Copyright © 2016 e-iceblue. All Rights Reserved.</copyright>
+    <language>en-US</language>
+    <tags>C# word component word .NET ASP.NET free docx doct docm</tags>
+  </metadata>
+</package>

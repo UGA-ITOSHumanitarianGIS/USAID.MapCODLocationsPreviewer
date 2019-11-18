@@ -1,0 +1,16 @@
+<div>
+	<div class="search-container">
+		<form data-dojo-attach-point="_form">
+			<ul>
+				<li><input name="locate-type" value="current" type="radio" id="locate-current" checked><label for="locate-current">Use my current location.</label>
+				<li><input name="locate-type" value="address" type="radio" id="locate-address"><label for="locate-address">Address
+					<input type="text" data-dojo-attach-point="_address" placeholder="Enter a Place or Coordinates"/></label></li>
+                                        
+			</ul>
+                        <br>Ex: -82.59,33.82 or Hall County, GA or Street Address
+			<div class="button-container">
+				<button type="submit" data-dojo-attach-point="_submitButton">Locate</button>
+			</div>
+		</form>
+	</div>
+</div>

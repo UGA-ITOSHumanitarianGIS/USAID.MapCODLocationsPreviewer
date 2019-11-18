@@ -1,0 +1,61 @@
+.search-container ul {
+    list-style: none;
+    padding:0px;
+}
+div.search-container * {
+    font-size:12px;
+}
+div.search-container div.button-container {
+    text-align:center;
+    margin-top:20px;
+}
+
+div.search-container button {
+    border-radius:5px;
+    font-size:18px;
+}
+@-webkit-keyframes
+  pulse
+ {
+   0%
+   {
+     opacity: 1.0;
+
+   }
+   45%
+   {
+     opacity: .20;
+
+   }
+   100%
+   {
+     opacity: 1.0;
+
+   }
+ }
+@-moz-keyframes
+  pulse
+ {
+   0%
+   {
+     opacity: 1.0;
+   }
+   45%
+   {
+     opacity: .20;
+
+   }
+   100%
+   {
+     opacity: 1.0;
+   }
+ }
+
+ #locateMarker {
+   -webkit-animation-duration: 2s;
+   -webkit-animation-iteration-count: infinite;
+   -webkit-animation-name: pulse;
+   -moz-animation-duration: 2s;
+   -moz-animation-iteration-count: infinite;
+   -moz-animation-name: pulse;
+ }

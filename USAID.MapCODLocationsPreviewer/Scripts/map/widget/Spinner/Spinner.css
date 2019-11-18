@@ -1,0 +1,25 @@
+.spinner-container {
+    position: absolute;
+    background-color:#485566;
+    bottom: 20px;
+    left: 20px;
+    z-index: 10000;
+    padding: 10px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    border-radius:5px;
+    box-shadow:0px 1px 8px 0px rgba(0, 0, 0, 0.4)
+}
+.no-display {
+    display:none;
+}
+.spinner-image {
+    display: inline-block;
+    vertical-align: middle;
+    min-height: 32px;
+    min-width: 32px;
+    width: 32px;
+    height: 32px;
+    margin-right: 1em;
+}
